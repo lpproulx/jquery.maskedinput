@@ -329,7 +329,7 @@ $.fn.extend({
 							settings.completed.call(input);
 					}, 0);
 				});
-			checkVal(); //Perform initial check for existing values
+			input.caret(checkVal(true)); //Perform initial check for existing values
 		});
 	}
 });
